@@ -37,8 +37,8 @@ export default class PullRefreshScrollView extends Component {
         refreshText: PropTypes.string,
         indicatorArrowImg: PropTypes.any,
         indicatorImg: PropTypes.any,
-        refreshType: PropTypes.string,
-        onRefresh: PropTypes.func,
+        refreshType: PropTypes.string.isRequired,
+        onRefresh: PropTypes.func.isRequired,
     };
 
     constructor(props) {
